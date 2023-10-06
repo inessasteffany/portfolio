@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body id="top-page">
+        <header class="header-nav">
+                        
+            <div>
+                <span id="darkMode" >
+                    <img src="assets/icones/header/dark_mode.svg" alt="modo escuro" class="menu-icon">
+                </span>
+
+                <span id="lightMode" >
+                    <img src="assets/icones/header/light_mode.svg" alt="modo claro" class="menu-icon">
+                </span>
+            </div>
+
+            <div>
+                <h1 class="meu-nome">Inessa Steffany</h1>
+            </div>
+
+
+            <div>
+                <span id="xMenu">
+                    <img src="assets/icones/header/x-solid.svg" alt="icone fechar menu" class="menu-icon">
+                </span>
+
+                <span id="burguerMenu">
+                    <img src="assets/icones/header/bars-solid.svg" alt="icone abrir menu" class="menu-icon">
+                </span>
+            </div>
+
+
+            <div id="itens">
+                <ul class="nav-bar">
+                    <a href="index.html" class="navBarIten"><li>Home</li></a>
+                    <a href="projetos.html" class="navBarIten"><li>Projetos</li></a>
+                    <a href="contato.html" class="navBarIten"><li>Contatos</li></a>
+                </ul>
+            </div>
+
+        </header>
+
+        <main>
+            <h2 class="h2-title">Obrigado!</h2>
+
+        </main>
+
+        
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        
+        <script src="menu.js"></script>
+        <script src="formulario.js"></script>
+    </body>
+</html>

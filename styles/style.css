@@ -1,0 +1,210 @@
+@import 'header.css';
+@import 'responsive.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin-top: 6em;
+}
+:root{
+    --background: rgb(0, 0, 83);
+    --border: #dcdcdc;
+    --color1: white;
+    --color2: gray;
+}
+.light-mode{
+    --background: gainsboro;
+    --border: #dcdcdc;
+    --color1: black;
+    --color2: gray;
+}
+body{
+    background-color: var(--background);
+}
+main{
+    max-width: 1000px;
+    margin-inline: auto;
+    color: var(--color1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Nome e foto*/
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 140px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+}
+.name-description{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px !important;
+}
+
+.name-description span{
+    color: gray;
+}
+
+.div-foto{
+    max-width: 300px;
+}
+.foto{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+/*Sobre mim */
+.sobre-mim{
+    max-width: 600px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mim p{
+    color: gray;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Tecnologias*/
+.tecnologias{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+.itens-tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+.tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8B008B;
+    margin-top: 10px;
+}
+.tecnologia span{
+    font-weight: bold;
+}
+#icon{
+    font-size: 100px;
+    margin-inline: 15px;
+    margin-top: 30px;
+}
+.itens-tecnologias img{
+    width: 100px;
+    margin-inline: 15px;
+}
+
+
+
+/*Projetos*/
+.h2-title{
+    margin-top: 5em;
+}
+.container-projetos{
+    display: flex;
+    flex-direction: column;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin-top: 60px;
+}
+.container-img-projeto{
+    max-width: 600px;
+    margin-top: 5px;
+}
+.img-projeto{
+    width: 100%;
+}
+.info-projeto{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+.info-projeto li{
+    margin-top: 15px;
+}
+a{
+    color: var(--color1);
+}
+
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+label{
+    margin-top: 20px;
+}
+input{
+    line-height: 1.5em;
+    padding-left: 5px;
+}
+textarea{
+    padding-left: 5px;
+}
+button{
+    margin-top: 5px;
+    height: 30px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 40px;
+}
+.icon-contato{
+    max-width: 50px;
+    width: 100%;
+}
+.forma-de-contato a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        text-decoration: none;
+}
+
+
+footer{
+    margin-top: 40px;
+    background-color: var(--background);
+    border-top: 2px solid var(--border);
+    padding: 40px;
+    color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

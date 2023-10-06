@@ -1,0 +1,25 @@
+@media (max-width:716px){
+    .intro{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .name-description{
+        margin-bottom: 3em;
+    }
+}
+
+@media (max-width:850px){
+    .modal-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-and-info{
+        align-items: center;
+    }
+    .container-img-modal{
+        max-width: 400px;
+    }
+    .desciption-project{
+        margin-top: 20px;
+    }
+}

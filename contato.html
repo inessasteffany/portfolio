@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body id="top-page">
+        <header class="header-nav">
+                        
+            <div>
+                <span id="darkMode" >
+                    <img src="assets/icones/header/dark_mode.svg" alt="modo escuro" class="menu-icon">
+                </span>
+
+                <span id="lightMode" >
+                    <img src="assets/icones/header/light_mode.svg" alt="modo claro" class="menu-icon">
+                </span>
+            </div>
+
+            <div>
+                <h1 class="meu-nome">Inessa Steffany</h1>
+            </div>
+
+
+            <div>
+                <span id="xMenu">
+                    <img src="assets/icones/header/x-solid.svg" alt="icone fechar menu" class="menu-icon">
+                </span>
+
+                <span id="burguerMenu">
+                    <img src="assets/icones/header/bars-solid.svg" alt="icone abrir menu" class="menu-icon">
+                </span>
+            </div>
+
+
+            <div id="itens">
+                <ul class="nav-bar">
+                    <a href="index.html" class="navBarIten"><li>Home</li></a>
+                    <a href="projetos.html" class="navBarIten"><li>Projetos</li></a>
+                    <a href="contato.html" class="navBarIten"><li>Contatos</li></a>
+                </ul>
+            </div>
+
+        </header>
+
+        <main>
+            <h2 class="h2-title" id="contato">Contato</h2>
+
+            <form action="https://formsubmit.co/74c5fef0498717a2815e7ba53ed3249a " class="formulario" method="POST">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Nome" id="nome" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+
+                <label for="">Mensagem</label>
+                <textarea name="" id="" cols="30" rows="10"  placeholder="Mensagem" required>
+                </textarea>
+
+                <input type="hidden" name="_next" value="https://inessasteffany.github.io/portfolio/agradecimento.html">
+
+                <button type="submit">Enviar</button>
+            </form>
+
+
+            <div class="container-contato">
+                <div class="forma-de-contato">
+                    <a href="https://br.linkedin.com/in/inessa-steffany-2a023491" target="_blank">
+                        <img src="assets/icones/redes-sociais/linkedin.svg" alt="icone do linkedin" class="icon-contato">
+                        <span>Inessa Steffany</span>
+                    </a>
+                </div>
+
+                <div class="forma-de-contato">
+                    <a href="mailto:inessasteffany@gmail.com" target="_blank">
+                        <img src="assets/icones/redes-sociais/envelope-regular.svg" alt="icone de email" class="icon-contato">
+                        <span>inessasteffany@gmail.com</span>
+                    </a>
+                </div>
+
+                <div class="forma-de-contato">
+                    <a href="https://github.com/inessasteffany" target="_blank">
+                        <img src="assets/icones/redes-sociais/github.svg" alt="icone do github" class="icon-contato">
+                        <span>@inessasteffany</span>
+                    </a>
+                </div>
+
+            </div>
+        </main>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <script src="menu.js"></script>
+        <script src="formulario.js"></script>
+    </body>
+</html>

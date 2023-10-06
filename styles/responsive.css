@@ -1,4 +1,9 @@
 @media (max-width:716px){
+    .nav-bar{
+        max-width: 100%;
+        width: 100%;
+        border-left: 0;
+    }
     .intro{
         flex-direction: column;
         justify-content: center;

@@ -75,7 +75,7 @@ main{
 }
 
 .sobre-mim p{
-    color: gray;
+    color: var(--color1);
     line-height: 2em;
     text-align: center;
     margin-top: 10px;
